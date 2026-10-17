@@ -1,16 +1,50 @@
-                                                   中位数 (median)  平均数 (mean)  标准差 (std)  非空计数 (count)  缺失值 (missing)
-rounds                                                   3.0000      3.7593     0.9098            54              0
-user_turns                                               3.0000      3.7593     0.9098            54              0
-real_count                                               0.0000      0.0000     0.0000            54              0
-knowledge_management                                     0.3444      0.4044     0.1548            54              0
-dialogue_management                                      0.2542      0.2854     0.2441            54              0
-long_range_memory                                        0.3000      0.2593     0.2690            54              0
-path_deviation                                           0.3500      0.3907     0.1533            54              0
-info_provision_necessity                                 0.3333      0.3463     0.1456            54              0
-clarify_necessity                                        0.6250      0.6506     0.3757            26             28
-agility                                                  0.5000      0.3410     0.2602            54              0
-goal_consistency                                         0.4000      0.3546     0.3362            54              0
-intent_following                                         0.2000      0.2948     0.3063            54              0
-problem_solving_maintenance                              0.0000      0.1873     0.2369            54              0
-context_retention                                        0.3000      0.2593     0.2690            54              0
-forgetfulness                                            0.3000      0.2593     0.2690            54              0
+,中位数 (median),平均数 (mean),标准差 (std),非空计数 (count),缺失值 (missing)
+scenario,,,,0,59
+rounds,6.0,6.0,0.0,59,0
+user_turns,5.0,5.0,0.0,59,0
+real_count,0.0,0.0,0.0,59,0
+knowledge_leakage,0.9,0.807627,0.162633,59,0
+progress_fluency_and_nature,0.864,0.842678,0.118407,59,0
+style_realism,0.63,0.625254,0.026997,59,0
+anti_leakage,0.9,0.807627,0.162633,59,0
+content_rationality,0.65,0.547458,0.198578,59,0
+goal_alignment,0.85,0.774576,0.173795,59,0
+moderate_cooperation,0.75,0.733898,0.157961,59,0
+behavior_realism,0.63,0.625254,0.026997,59,0
+behavior_similarity,,,,0,59
+progress_fluency_and_nature.local_turn_mean,1.0,0.959322,0.123342,59,0
+progress_fluency_and_nature.led_astray_rate,0.0,0.0,0.0,59,0
+progress_fluency_and_nature.objection_missed_rate,0.0,0.020339,0.080472,59,0
+progress_fluency_and_nature.history_consistency,1.0,0.972881,0.078412,59,0
+progress_fluency_and_nature.global_trajectory,1.0,0.954237,0.140592,59,0
+anti_leakage.leak_free_rate,1.0,1.0,0.0,59,0
+anti_leakage.jargon_free_rate,1.0,0.933898,0.23015,59,0
+anti_leakage.no_wrong_acceptance,1.0,0.780508,0.349386,59,0
+content_rationality.appropriate_turn_rate,0.4,0.481356,0.285557,59,0
+content_rationality.off_topic_rate,0.6,0.518644,0.285557,59,0
+content_rationality.feedback_coverage,0.0,0.115254,0.171015,59,0
+content_rationality.answer_rate,0.6,0.525424,0.394616,59,0
+goal_alignment.opening_alignment,0.0,0.491525,0.504219,59,0
+goal_alignment.topic_consistency,1.0,0.971186,0.146277,59,0
+goal_alignment.info_grounding,1.0,0.957627,0.192267,59,0
+goal_alignment.gradual_release,0.75,0.65,0.374626,59,0
+moderate_cooperation.cooperation_level,0.9,0.772034,0.345322,59,0
+moderate_cooperation.no_blind_acceptance,1.0,0.905085,0.283101,59,0
+moderate_cooperation.resistance_on_invalid,1.0,0.876271,0.326602,59,0
+moderate_cooperation.followup_rate,0.5,0.45339,0.285854,59,0
+behavior_realism.user_intent,1.0,0.80678,0.218825,59,0
+behavior_realism.feedback,0.3,0.389831,0.169883,59,0
+behavior_realism.emotion,0.6,0.6,0.0,59,0
+behavior_realism.domain_specific_knowledge,0.6,0.674576,0.157122,59,0
+behavior_realism.personal_context,0.6,0.752542,0.245199,59,0
+behavior_realism.message_length,0.6,0.640678,0.121936,59,0
+behavior_realism.linguistic_attributes,0.6,0.472881,0.149517,59,0
+behavior_realism.error_reporting,0.6,0.60339,0.092785,59,0
+behavior_similarity.length_sim,,,,0,59
+behavior_similarity.vocab_sim,,,,0,59
+behavior_similarity.marker_sim,,,,0,59
+behavior_similarity.judge_similarity,,,,0,59
+total_score,0.789333,0.75852,0.078823,59,0
+scored_dims,3.0,3.0,0.0,59,0
+llm_calls,6.0,6.0,0.0,59,0
+elapsed_s,180.514,177.150729,25.648493,59,0
